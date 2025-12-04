@@ -87,9 +87,9 @@
 						<Event name="OnChange">ЭтапыПереработкиЦехПриИзменении</Event>
 					</Events>
 				</InputField>
-				<InputField name="ЭтапыПереработкиУчасток" id="32">
-					<DataPath>Объект.ЭтапыПереработки.Участок</DataPath>
-					<EditMode>EnterOnInput</EditMode>
+                                <InputField name="ЭтапыПереработкиУчасток" id="32">
+                                        <DataPath>Объект.ЭтапыПереработки.Участок</DataPath>
+                                        <EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ЭтапыПереработкиУчастокКонтекстноеМеню" id="33"/>
 					<ExtendedTooltip name="ЭтапыПереработкиУчастокРасширеннаяПодсказка" id="34"/>
@@ -99,11 +99,63 @@
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ЭтапыПереработкиДатаВремяНачалаРаботКонтекстноеМеню" id="36"/>
-					<ExtendedTooltip name="ЭтапыПереработкиДатаВремяНачалаРаботРасширеннаяПодсказка" id="37"/>
-				</InputField>
-			</ChildItems>
-		</Table>
-	</ChildItems>
+                                        <ExtendedTooltip name="ЭтапыПереработкиДатаВремяНачалаРаботРасширеннаяПодсказка" id="37"/>
+                                </InputField>
+                                <InputField name="ЭтапыПереработкиДатаВремяОкончанияРабот" id="38">
+                                        <DataPath>Объект.ЭтапыПереработки.ДатаВремяОкончанияРабот</DataPath>
+                                        <EditMode>EnterOnInput</EditMode>
+                                        <ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+                                        <ContextMenu name="ЭтапыПереработкиДатаВремяОкончанияРаботКонтекстноеМеню" id="39"/>
+                                        <ExtendedTooltip name="ЭтапыПереработкиДатаВремяОкончанияРаботРасширеннаяПодсказка" id="40"/>
+                                </InputField>
+                                <InputField name="ЭтапыПереработкиПродукция" id="41">
+                                        <DataPath>Объект.ЭтапыПереработки.Продукция</DataPath>
+                                        <EditMode>EnterOnInput</EditMode>
+                                        <ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+                                        <ContextMenu name="ЭтапыПереработкиПродукцияКонтекстноеМеню" id="42"/>
+                                        <ExtendedTooltip name="ЭтапыПереработкиПродукцияРасширеннаяПодсказка" id="43"/>
+                                </InputField>
+                                <InputField name="ЭтапыПереработкиПлановоеКоличество" id="44">
+                                        <DataPath>Объект.ЭтапыПереработки.ПлановоеКоличество</DataPath>
+                                        <EditMode>EnterOnInput</EditMode>
+                                        <ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+                                        <ContextMenu name="ЭтапыПереработкиПлановоеКоличествоКонтекстноеМеню" id="45"/>
+                                        <ExtendedTooltip name="ЭтапыПереработкиПлановоеКоличествоРасширеннаяПодсказка" id="46"/>
+                                </InputField>
+                                <InputField name="ЭтапыПереработкиЕдиницаИзмерения" id="47">
+                                        <DataPath>Объект.ЭтапыПереработки.ЕдиницаИзмерения</DataPath>
+                                        <EditMode>EnterOnInput</EditMode>
+                                        <ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+                                        <ContextMenu name="ЭтапыПереработкиЕдиницаИзмеренияКонтекстноеМеню" id="48"/>
+                                        <ExtendedTooltip name="ЭтапыПереработкиЕдиницаИзмеренияРасширеннаяПодсказка" id="49"/>
+                                </InputField>
+                        </ChildItems>
+                </Table>
+                <Button name="РассчитатьПлан" id="50">
+                        <Caption>
+                                <v8:item>
+                                        <v8:lang>ru</v8:lang>
+                                        <v8:content>Рассчитать план</v8:content>
+                                </v8:item>
+                        </Caption>
+                        <Events>
+                                <Event name="OnClick">РассчитатьПлан</Event>
+                        </Events>
+                        <ExtendedTooltip name="РассчитатьПланРасширеннаяПодсказка" id="51"/>
+                </Button>
+                <Button name="СоздатьЗаданияНаСмену" id="52">
+                        <Caption>
+                                <v8:item>
+                                        <v8:lang>ru</v8:lang>
+                                        <v8:content>Создать задания на смену</v8:content>
+                                </v8:item>
+                        </Caption>
+                        <Events>
+                                <Event name="OnClick">СоздатьЗаданияНаСмену</Event>
+                        </Events>
+                        <ExtendedTooltip name="СоздатьЗаданияНаСменуРасширеннаяПодсказка" id="53"/>
+                </Button>
+        </ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
