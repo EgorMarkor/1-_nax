@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog.ВидыРабот" id="506222e4-e20b-440f-b7b6-ee0f91f0544e" configVersion="ebda9173d7f7114fb4d7ab59cb7f11d100000000">
+			<Metadata name="Catalog.ВидыРабот.TabularSection.ИспользуемоеОборудование" id="035848db-9c80-447b-8bd5-592954dc2e26"/>
+			<Metadata name="Catalog.ВидыРабот.Attribute.ЕдиницаИзмеренияПродукции" id="115b036d-dec2-462b-8cf8-f90ea3f0f7d9"/>
+			<Metadata name="Catalog.ВидыРабот.Attribute.ВыпускаемаяПродукция" id="2ee6b18c-b232-48bb-b593-d5abcc30b456"/>
+			<Metadata name="Catalog.ВидыРабот.TabularSection.ИспользуемоеОборудование.Attribute.Оборудование" id="a2608059-2c6c-459e-ad59-0e49f5fa8684"/>
+			<Metadata name="Catalog.ВидыРабот.TabularSection.ИспользуемоеОборудование.Attribute.Количество" id="d7bd5141-fc26-4ee4-9264-b7458597d7e3"/>
+		</Metadata>
+		<Metadata name="Catalog.ВидыРабот.Form.ФормаЭлемента" id="a30daed0-8d12-4cca-bfe9-1cb14c10d97d" configVersion="ed6e186821997e4e8b9f7d1d4dc5e31000000000"/>
+		<Metadata name="Catalog.ВидыРабот.Form.ФормаЭлемента.Form" id="a30daed0-8d12-4cca-bfe9-1cb14c10d97d.0" configVersion="5a953099d8607545aa055941ecd7291a00000000"/>
+		<Metadata name="Catalog.ЕдиницыИзмерения" id="ccc02a5a-8128-4d03-aad9-265de96171ef" configVersion="c8535a54edc77b48a1be9b5816169fec00000000">
+			<Metadata name="Catalog.ЕдиницыИзмерения.Attribute.СокращенноеНаименование" id="66860b9b-1b24-4ecc-8d00-7f33a50cf113"/>
+		</Metadata>
+		<Metadata name="Catalog.Номенклатура" id="a63495e1-3d0f-4ea7-9f61-686726bf2ae8" configVersion="0596ed35e53c174b8e60b4e1ec7f11b500000000">
+			<Metadata name="Catalog.Номенклатура.Attribute.Группа" id="622fddfd-8b2b-40fc-9484-734a8632fb55"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.ЕдиницаИзмерения" id="f593a19a-5c03-4275-a2e0-8496b452b83c"/>
+		</Metadata>
+		<Metadata name="Catalog.НоменклатурныеГруппы" id="3114ca1e-3f5a-4208-ab59-185d9c53240a" configVersion="95612b482e804d4780768bba32d23a8300000000"/>
+		<Metadata name="Catalog.Оборудование" id="86d249c8-4f85-4f27-8bf1-6c831faa276a" configVersion="7009a2318a82da4988141007906d33cf00000000">
+			<Metadata name="Catalog.Оборудование.Attribute.Модель" id="0f4a553d-532b-4f97-8d63-0991ac4f2bd9"/>
+			<Metadata name="Catalog.Оборудование.Attribute.ГаражныйНомер" id="4bf1633e-5a3d-4b27-92a8-acae2398b742"/>
+		</Metadata>
+		<Metadata name="Catalog.Оборудование.Form.ФормаЭлемента" id="7555e80e-20ea-4b91-8dc1-2274668b5372" configVersion="9c9db01152b03f4698e2aa95710ecff500000000"/>
+		<Metadata name="Catalog.Оборудование.Form.ФормаЭлемента.Form" id="7555e80e-20ea-4b91-8dc1-2274668b5372.0" configVersion="f9ca7cb09c3e34458251080c877edfe600000000"/>
+		<Metadata name="Catalog.Оборудование.ObjectModule" id="86d249c8-4f85-4f27-8bf1-6c831faa276a.0" configVersion="04174a34b1c4f945b8595fd71659ddc000000000"/>
+		<Metadata name="Catalog.Смены" id="370f17f6-9853-41f3-b32b-f9efa2986586" configVersion="6358d8201ab4624a988d1dc34e869c9100000000">
+			<Metadata name="Catalog.Смены.Attribute.ПериодНачала" id="01ade9fa-4100-4354-ad31-b9ec6252b714"/>
+			<Metadata name="Catalog.Смены.Attribute.ПериодОкончания" id="7f6b1274-47f2-4bdc-ab47-f7270f6f3baf"/>
+		</Metadata>
+		<Metadata name="Catalog.УчасткиЦехов" id="6331c66d-2a85-4569-9663-1f68bd823d41" configVersion="ee753aacba9154438a5a56418c92db2800000000">
+			<Metadata name="Catalog.УчасткиЦехов.Attribute.Цех" id="3715b362-7990-4715-a78f-93789a15b55d"/>
+		</Metadata>
+		<Metadata name="Catalog.ЦехаФабрики" id="86fa77be-e6e3-4aa9-ba01-5d3010c7eec6" configVersion="9eb14b514d366543967673c304e3a01100000000"/>
+		<Metadata name="Catalog.ЭтапыПереработкиРуды" id="7170b9e9-4600-439e-b682-769db47394a0" configVersion="06b87c3dc6127e4ab81926cf4ba13c8100000000"/>
+		<Metadata name="Configuration.ЗолотаяДолина" id="b59ebe65-3622-4223-9689-295b348e19ec" configVersion="61d1cbf542bc9c4481764366ad32707000000000"/>
+		<Metadata name="Document.ГорныеРаботы" id="d76dd35b-c18b-43e1-bc9f-93bc90401cf7" configVersion="400527e6782d024694325be8a439073000000000">
+			<Metadata name="Document.ГорныеРаботы.TabularSection.Работы.Attribute.ЕдиницаИзмерения" id="40c247c5-97e5-4c1b-bd06-7c02a6532efc"/>
+			<Metadata name="Document.ГорныеРаботы.TabularSection.Работы.Attribute.ВремяНачала" id="43a77476-11a0-4124-9459-1d75e9479b3a"/>
+			<Metadata name="Document.ГорныеРаботы.TabularSection.Работы.Attribute.НормаПоПлану" id="55ac551a-6fb9-4f68-8e5b-750d93a0db56"/>
+			<Metadata name="Document.ГорныеРаботы.TabularSection.Работы.Attribute.Номенклатура" id="5c3732a2-d43b-48b6-b2e5-81623da4377e"/>
+			<Metadata name="Document.ГорныеРаботы.TabularSection.Работы.Attribute.Оборудование" id="77e62065-35be-4fbc-b2e9-b4301ca0c5b4"/>
+			<Metadata name="Document.ГорныеРаботы.TabularSection.Работы" id="d3d8b052-a1c8-4621-99d6-e1777266e25f"/>
+			<Metadata name="Document.ГорныеРаботы.Attribute.ВидРабот" id="f58773fe-398d-455f-9804-8a1d3bd8fec3"/>
+		</Metadata>
+		<Metadata name="Document.ГорныеРаботы.Form.ФормаДокумента" id="24dbd42b-810c-4411-9338-14ea4fad09f5" configVersion="1428d5f048a9aa4fbcec0931b6ea5bf800000000"/>
+		<Metadata name="Document.ГорныеРаботы.Form.ФормаДокумента.Form" id="24dbd42b-810c-4411-9338-14ea4fad09f5.0" configVersion="72b924fd243084418923dd585475691500000000"/>
+		<Metadata name="Document.НарядНаСмену" id="4e172839-02a8-4c4f-ab48-744978815a2c" configVersion="65f943719c9cf742b7a78c0a216adf7400000000">
+			<Metadata name="Document.НарядНаСмену.TabularSection.Работы.Attribute.ПланируемоеКоличество" id="2455131e-f4ce-47da-9a0d-23619112b015"/>
+			<Metadata name="Document.НарядНаСмену.TabularSection.Работы" id="3978ee7d-f8f1-4e5e-95cc-d18af9de5052"/>
+			<Metadata name="Document.НарядНаСмену.TabularSection.Работы.Attribute.Оборудование" id="632d45a0-1259-4888-a783-2ddd9f06d7aa"/>
+			<Metadata name="Document.НарядНаСмену.Attribute.Смена" id="82d0acb6-2fd9-479a-a1dd-bccd7d8c85dd"/>
+			<Metadata name="Document.НарядНаСмену.Attribute.План" id="97a38601-7df4-4514-a3b5-70e7237087c5"/>
+			<Metadata name="Document.НарядНаСмену.TabularSection.Работы.Attribute.ВидРабот" id="a3e17e43-7969-49e6-a5f0-3797bca66983"/>
+			<Metadata name="Document.НарядНаСмену.TabularSection.Работы.Attribute.ЕдиницаИзмерения" id="e396e425-f829-4b8c-b503-e9f7b06363ec"/>
+			<Metadata name="Document.НарядНаСмену.TabularSection.Работы.Attribute.Номенклатура" id="f15bda60-0b38-422c-8ae8-365459e7ec40"/>
+		</Metadata>
+		<Metadata name="Document.НарядНаСмену.Form.ФормаДокумента" id="61ae95d8-2638-45a2-a581-e6615dad27ed" configVersion="09d37a862dcca64689a6cad7ffe2eb5800000000"/>
+		<Metadata name="Document.НарядНаСмену.Form.ФормаДокумента.Form" id="61ae95d8-2638-45a2-a581-e6615dad27ed.0" configVersion="1fac166be8361544b5f6c5b0b3274f9400000000"/>
+		<Metadata name="Document.ПланГорныхРабот" id="51eb6a71-7a25-48df-996f-f8c87352bc77" configVersion="9360dc56073b0e46a35f99110c2ba34a00000000">
+			<Metadata name="Document.ПланГорныхРабот.TabularSection.Работы" id="0c479713-1927-40d6-9794-8e62779bf2d9"/>
+			<Metadata name="Document.ПланГорныхРабот.TabularSection.Работы.Attribute.Четверг" id="23d64ea5-9635-4df2-86de-55c0c5e66e19"/>
+			<Metadata name="Document.ПланГорныхРабот.TabularSection.Работы.Attribute.Вторник" id="30dda425-ca90-4416-a2ba-6369ab2b0b2e"/>
+			<Metadata name="Document.ПланГорныхРабот.TabularSection.Работы.Attribute.Суббота" id="7a96ad96-3e9c-4719-b4bd-105b3ae6fb31"/>
+			<Metadata name="Document.ПланГорныхРабот.TabularSection.Работы.Attribute.Номенклатура" id="827b25a2-1752-472d-9c81-795b37b91922"/>
+			<Metadata name="Document.ПланГорныхРабот.TabularSection.Работы.Attribute.Воскресенье" id="88f7375a-9e84-4671-b2b9-e031baaf5899"/>
+			<Metadata name="Document.ПланГорныхРабот.TabularSection.Работы.Attribute.Понедельник" id="89e1ae13-f7de-4d0f-9ff1-336eff39d258"/>
+			<Metadata name="Document.ПланГорныхРабот.TabularSection.Работы.Attribute.ВидРабот" id="8ac7a5dd-8a5d-45cf-8c10-38724e3cb638"/>
+			<Metadata name="Document.ПланГорныхРабот.TabularSection.Работы.Attribute.Пятница" id="95aa22f5-3afe-4af2-af6d-2251c03f673b"/>
+			<Metadata name="Document.ПланГорныхРабот.TabularSection.Работы.Attribute.ЕдиницаИзмерения" id="a7673c37-cd74-4d70-93c5-f6f2026bd361"/>
+			<Metadata name="Document.ПланГорныхРабот.TabularSection.Работы.Attribute.Среда" id="d09ed533-c4fd-4801-9bb5-283690e51b7c"/>
+		</Metadata>
+		<Metadata name="Document.ПланГорныхРабот.Form.ФормаДокумента" id="0f9922de-d99d-4266-8c3b-a589761829ac" configVersion="e3e0f052cfce8843b13b6ff5c39f9c4400000000"/>
+		<Metadata name="Document.ПланГорныхРабот.Form.ФормаДокумента.Form" id="0f9922de-d99d-4266-8c3b-a589761829ac.0" configVersion="206ebbea028dd64d81084bd0ee40350e00000000"/>
+		<Metadata name="Document.ПланПереработкиПартии" id="bc632dc0-0b85-443b-8fbb-33f65f461a17" configVersion="986696bb0025254faf012f1ceeb193e900000000">
+			<Metadata name="Document.ПланПереработкиПартии.TabularSection.ЭтапыПереработки.Attribute.Цех" id="19949e91-8b68-4407-87a7-c660df053a82"/>
+			<Metadata name="Document.ПланПереработкиПартии.TabularSection.ЭтапыПереработки.Attribute.ДатаВремяНачалаРабот" id="327dac40-bf04-470e-bf8a-bb6c6bdbd488"/>
+			<Metadata name="Document.ПланПереработкиПартии.Attribute.ПартияСырья" id="4df8908a-73c1-46e5-bc3d-cef3aa11cdb2"/>
+			<Metadata name="Document.ПланПереработкиПартии.TabularSection.ЭтапыПереработки.Attribute.ЭтапПереработки" id="7393c717-e758-434a-90f9-a53e6abca7d7"/>
+			<Metadata name="Document.ПланПереработкиПартии.TabularSection.ЭтапыПереработки.Attribute.Участок" id="c65c8fd9-0eeb-452b-991b-88d94c809362"/>
+			<Metadata name="Document.ПланПереработкиПартии.TabularSection.ЭтапыПереработки" id="f1e3595c-41dc-47f4-8499-76b3f8299081"/>
+		</Metadata>
+		<Metadata name="Document.ПланПереработкиПартии.Form.ФормаДокумента" id="a9271002-05a2-42b2-9cde-2f2f663affbf" configVersion="da11d35d7b4f794aa6aa12a0e46467b900000000"/>
+		<Metadata name="Document.ПланПереработкиПартии.Form.ФормаДокумента.Form" id="a9271002-05a2-42b2-9cde-2f2f663affbf.0" configVersion="a54ef3c14fcf8244808282b3e30187db00000000"/>
+		<Metadata name="Document.ПриемкаГорныхРабот" id="35ad4238-4aaa-426f-ac88-9e20bbc092e3" configVersion="dda3fcadaf28364d9235408654b82b3800000000">
+			<Metadata name="Document.ПриемкаГорныхРабот.TabularSection.Работы" id="1bcb5e66-af73-4424-b0fd-8b9f67f4ea5f"/>
+			<Metadata name="Document.ПриемкаГорныхРабот.Attribute.ГорныеРаботы" id="5257e94f-e406-4180-9dc7-6675204953e6"/>
+			<Metadata name="Document.ПриемкаГорныхРабот.TabularSection.Работы.Attribute.Оборудование" id="6847fcf7-375e-48a8-a073-897d26e97b04"/>
+			<Metadata name="Document.ПриемкаГорныхРабот.TabularSection.Работы.Attribute.Номенклатура" id="8a899c6a-d355-4cb3-8cba-cfa14889e7bc"/>
+			<Metadata name="Document.ПриемкаГорныхРабот.TabularSection.Работы.Attribute.ФактическиВыполнено" id="9bc82885-45d6-40f4-ad14-d1281ffc81b0"/>
+			<Metadata name="Document.ПриемкаГорныхРабот.TabularSection.Работы.Attribute.ЕдиницаИзмерения" id="c14001f8-e1a0-4572-8e44-635a6505a820"/>
+			<Metadata name="Document.ПриемкаГорныхРабот.TabularSection.Работы.Attribute.ВремяНачала" id="c3ffd3b3-5de8-4fdc-acc6-047f8c4c9af0"/>
+		</Metadata>
+		<Metadata name="Document.ПриемкаГорныхРабот.Form.ФормаДокумента" id="d8cbad54-4779-4b4c-b4a5-5beacb0ddb1a" configVersion="d4a1df9e49e1fc409e3bec946692aba300000000"/>
+		<Metadata name="Document.ПриемкаГорныхРабот.Form.ФормаДокумента.Form" id="d8cbad54-4779-4b4c-b4a5-5beacb0ddb1a.0" configVersion="33d53483e7a54c4a95ada0cd5b3ebd4500000000"/>
+		<Metadata name="Document.РегистрацияСырья" id="f72cc46a-e6d1-454e-aaac-f05d1b3e6bb8" configVersion="533bb9edf58e694795c5d4a2f209b48300000000">
+			<Metadata name="Document.РегистрацияСырья.Attribute.Качество" id="021013bb-771d-414d-8277-96b75a7d9115"/>
+			<Metadata name="Document.РегистрацияСырья.Attribute.Номенклатура" id="4906633b-4ea1-4876-a93f-6a3312be6a26"/>
+			<Metadata name="Document.РегистрацияСырья.Attribute.Вес" id="6607e26f-93b0-4058-977f-20886d79873b"/>
+			<Metadata name="Document.РегистрацияСырья.Attribute.УникальныйНомерПартии" id="d1bd47f2-68a7-40ba-8354-f138ce8ca4a4"/>
+		</Metadata>
+		<Metadata name="Document.РегистрацияСырья.ObjectModule" id="f72cc46a-e6d1-454e-aaac-f05d1b3e6bb8.0" configVersion="c76d04ffcde7c147823457cf88d5491800000000"/>
+		<Metadata name="Language.Русский" id="da3a7457-222a-4592-9024-881e62c46faa" configVersion="3560ec4a017f5149a44520b6b011effb00000000"/>
+		<Metadata name="Report.АнализВыполненияПланаГорныхРабот" id="17354d1e-1572-45e3-9839-38e4e2e8b9ae" configVersion="72acd9a522f4cb4abb98947beff740f800000000"/>
+		<Metadata name="Report.АнализВыполненияПланаГорныхРабот.Template.ОсновнаяСхемаКомпоновкиДанных" id="b7898d8f-7b54-4bdf-8330-81693ac41ab0" configVersion="0e6796e9b128ce429b44c34539762ae600000000"/>
+		<Metadata name="Report.АнализВыполненияПланаГорныхРабот.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="b7898d8f-7b54-4bdf-8330-81693ac41ab0.0" configVersion="236900aab69e9a4c8da1a9671d0fc03700000000"/>
+		<Metadata name="Subsystem.Добыча" id="2278c0d2-ef31-4a65-9767-3e69d1cee63c" configVersion="65a3889d74182940a280061ec7fd9e8600000000"/>
+		<Metadata name="Subsystem.Общие" id="85241737-09cc-48bc-bdfd-8dba1a5f8031" configVersion="36adc361bba2974f9c12ea0f1c02bb4100000000"/>
+		<Metadata name="Subsystem.Переработка" id="84394aa3-19c8-43de-81ba-ddf2c5d8c3c0" configVersion="726ffc06a1609c4c8bf8bad979f67ec900000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
